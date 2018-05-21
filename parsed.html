@@ -4,16 +4,18 @@
 <title>Index</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-<h2>Collection</h2>
-<table class="table" border="1">
+<div class="container">
+<table class="table table-striped">
+<thead class="thead-dark">
 <tr>
 <th scope="col">ID</th><th scope="col">Surname</th><th scope="col">Email</th><th scope="col">Phone</th><th scope="col">Age</th><th scope="col">Status</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>2</td><td>AnotherName</td><td>another_mail@email.com</td><td>+654-877-210-06-00</td><td>17</td><td>STANDARD</td>
 </tr>
@@ -24,11 +26,24 @@
 <td>4</td><td>FDSFsf</td><td>OOO@mail.ru</td><td>+375-666-666-66-66</td><td>84</td><td>STANDARD</td>
 </tr>
 <tr>
-<td>5</td><td>FDZFSD</td><td>fff@ffff.ff</td><td>+555-55-555-55-55</td><td>55</td><td>STANDARD</td>
+<td>5</td><td>FDZFSD</td><td>fff@ffff.ff</td><td>+555-55-555-55-55</td><td>55.5</td><td>STANDARD</td>
 </tr>
 <tr>
 <td>6</td><td>WQE</td><td>fgsdgf@oooo.op</td><td>+365-88-777-08-00</td><td>1</td><td>STANDARD</td>
 </tr>
+</tbody>
 </table>
+<ul class="list-group">
+<li class="list-group-item list-group-item-info">
+                            Average age:35.1</li>
+<li class="list-group-item list-group-item-warning">
+                            Total records:5</li>
+<li class="list-group-item list-group-item-success">
+                                    Longest E-mail:
+                                    <Email>another_mail@email.com</Email>
+</li>
+</ul>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

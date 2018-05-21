@@ -28,7 +28,7 @@ Client collection:
 	Name : FDZFSD
 	Email : fff@ffff.ff
 	Phone : +555-55-555-55-55
-	Age : 55
+	Age : 55.5
 	Status : STANDARD
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
@@ -39,3 +39,6 @@ Client collection:
 	Age : 1
 	Status : STANDARD
 -------------------------------------------------------------------------------------
+Average age :  35.1
+Total records: 5
+ Longest E-mail:another_mail@email.com

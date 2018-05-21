@@ -15,7 +15,7 @@
         <Email>OOO@mail.ru</Email>
         <Phone>+375-666-666-66-66</Phone>
     </Client>
-    <Client age="55" id="5" status="STANDARD">
+    <Client age="55.5" id="5" status="STANDARD">
         <Surname>FDZFSD</Surname>
         <Email>fff@ffff.ff</Email>
         <Phone>+555-55-555-55-55</Phone>
